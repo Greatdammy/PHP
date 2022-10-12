@@ -6,7 +6,7 @@ import Nav from "./Components/nav";
 function App() {
   return (
     <Fragment className="w-100">
-        {/* <Nav name='Logo' /> */}
+        <Nav name='Logo' />
          <Container as={"section"} fluid className="" >
           <Row>
 

@@ -94,6 +94,7 @@
   width: 100%;
 }
 
+
 @media(min-width: 320px) and (max-width: 480px){
   .hello {
     width: 345px;
@@ -126,5 +127,51 @@
     margin-top: 40px !important;
     margin-bottom: 60px !important;
   }
+
+  .icon{
+    align-items: flex-end;
+    margin-left: 191px !important;
+  }
   
+}
+
+
+@media(max-width: 768px){
+  .hello {
+    width: 345px;
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 60px auto 0;
+    text-align: left !important;
+    padding-left: 24px;
+  }
+
+  .php {
+    width: 350px;
+    margin: 11px auto 0;
+    font-size: 1.25rem;
+    padding-left: 20px;
+  }
+
+  .put-img {
+    background-image: url("../src/assets/img/Firstpic.jpg");
+    background-position: 50% 50%;
+    min-height: 400px;
+    border-radius: 20px;
+    background-size: cover;
+    padding: 30px !important;
+  }
+
+  .pad-it {
+    margin-left:20px !important;
+    margin-right: 20px !important;
+    margin-top: 40px !important;
+    margin-bottom: 60px !important;
+  }
+
+  .icon{
+    align-items: flex-end;
+    margin-left: 191px !important;
+  }
+
 }
