@@ -11,8 +11,8 @@ function App() {
           <Row>
 
           <div className="d-flex flex-column">
-            <h2 className="text-center hello">Hello!</h2>
-            <p className="text-center php">I'm a creative PHP web developer</p>
+            <h2 className=" hello">Hello!</h2>
+            <p className=" php">I'm a creative PHP web developer</p>
             <div className="d-block"></div>
 
             <div className="row pad-it">
