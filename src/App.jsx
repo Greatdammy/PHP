@@ -35,7 +35,7 @@ function App() {
               <p>33 years</p>
               <b>Location:</b>
               <p>'s-Hertogenbosch, The Netherlands, Earth</p>
-              <div className="d-flex justify-content-around">
+              <div className="d-flex ">
               <i className="fa fa-facebook" aria-hidden="true"></i>
               <i className="fa fa-twitter twitter " aria-hidden="true"></i>
               <i className="fa fa-instagram" aria-hidden="true"></i>

@@ -3,8 +3,8 @@ import IMAGES from "../assets/img/images";
 
 const Nav = ({name}) => {
     return (
-    <Row className="size col-sm-12">
-        <Col lg={10} md={10} sm={10}>
+    <Row className="size">
+        <Col className="col-lg-10 col-md-10 col-sm-10">
         <p className="ps-5">{name}</p>
         </Col>
         <Col >
