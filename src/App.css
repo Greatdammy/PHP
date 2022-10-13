@@ -52,7 +52,7 @@
   padding: 30px !important;
 }
 .pad-it {
-  margin-left:60px !important;
+  margin-left: 60px !important;
   margin-right: 60px !important;
   margin-top: 60px !important;
   margin-bottom: 60px !important;
@@ -77,25 +77,24 @@
   font-size: 1.25rem;
 }
 
-.space{
+.space {
   line-height: 2;
   padding: 30px !important;
 }
-.details{
+.details {
   font-weight: 100;
   padding-top: 30px;
   font-size: 29px;
 }
-.twitter{
+.twitter {
   padding: 0 10px;
 }
 
-.size{
+.size {
   width: 100%;
 }
 
-
-@media(min-width: 320px) and (max-width: 480px){
+@media (min-width: 320px) and (max-width: 600px) {
   .hello {
     width: 345px;
     font-size: 4rem;
@@ -122,28 +121,26 @@
   }
 
   .pad-it {
-    margin-left:20px !important;
+    margin-left: 20px !important;
     margin-right: 20px !important;
     margin-top: 40px !important;
     margin-bottom: 60px !important;
   }
 
-  .icon{
+  .icon {
     align-items: flex-end;
     margin-left: 191px !important;
   }
-  
 }
 
-
-@media(max-width: 768px){
+@media (min-width: 768px) {
   .hello {
-    width: 345px;
-    font-size: 4rem;
+    width: 350px;
+    font-size: 6rem;
     font-weight: 700;
-    margin: 60px auto 0;
+    margin: 60px auto 0px;
     text-align: left !important;
-    padding-left: 24px;
+    padding-left: 31px;
   }
 
   .php {
@@ -163,15 +160,14 @@
   }
 
   .pad-it {
-    margin-left:20px !important;
+    margin-left: 20px !important;
     margin-right: 20px !important;
     margin-top: 40px !important;
     margin-bottom: 60px !important;
   }
 
-  .icon{
+  .icon {
     align-items: flex-end;
-    margin-left: 191px !important;
+    /* margin-left: 191px !important; */
   }
-
 }
